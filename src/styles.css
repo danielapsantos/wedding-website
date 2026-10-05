@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --lilas: #9b8aad;
+  --rosa-antigo: #b9828b;
+  --verde-oliva: #7d8062;
+  --champanhe: #f7f1e6;
+  --off-white: #fcfaf6;
+  --texto: #4d4848;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--champanhe);
+  color: var(--texto);
+  font-family: Georgia, 'Times New Roman', serif;
+} /* You can add global styles to this file, and also import other style files */

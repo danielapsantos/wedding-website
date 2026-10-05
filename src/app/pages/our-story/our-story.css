@@ -1,0 +1,142 @@
+.story-page {
+  background-color: var(--champanhe);
+  padding: 90px 24px;
+}
+
+.story-header {
+  max-width: 700px;
+  margin: 0 auto 90px;
+  text-align: center;
+}
+
+.section-label {
+  color: var(--verde-oliva);
+  font-size: 13px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.story-header h1 {
+  color: var(--rosa-antigo);
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 25px;
+}
+
+.story-header p:last-child {
+  color: var(--texto);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.timeline {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  position: relative;
+  padding: 0 0 40px 40px;
+  border-left: 1px solid var(--lilas);
+}
+
+.timeline-item:last-child {
+  border-left: none;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -6px;
+  top: 0;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: var(--rosa-antigo);
+}
+
+.timeline-date {
+  color: var(--verde-oliva);
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.timeline-item h2 {
+  color: var(--lilas);
+  font-size: 30px;
+  font-weight: 400;
+  margin: 12px 0 15px;
+}
+
+.timeline-item p + p {
+  margin-top: 16px;
+  color: var(--texto);
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.timeline-item:last-child h2 {
+  color: var(--rosa-antigo);
+}
+
+.proposal {
+  padding-top: 10px;
+}
+
+.proposal h2 {
+  color: var(--rosa-antigo);
+  font-size: 34px;
+}
+
+.proposal::before {
+  width: 15px;
+  height: 15px;
+  left: -8px;
+  background-color: var(--rosa-antigo);
+}
+
+.final-story .highlight {
+  color: var(--rosa-antigo);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.story-image {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+  margin-top: 30px;
+  border: 1px solid var(--rosa-antigo);
+}
+
+@media (max-width: 768px) {
+  .story-page {
+    padding: 60px 20px;
+  }
+
+  .story-header {
+    margin-bottom: 70px;
+  }
+
+  .story-header h1 {
+    font-size: 38px;
+  }
+
+  .timeline-item {
+    padding-left: 30px;
+    padding-bottom: 35px;
+  }
+
+  .timeline-item h2 {
+    font-size: 26px;
+  }
+
+  .story-image {
+    max-width: 100%;
+  }
+}
