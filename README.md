@@ -1,59 +1,54 @@
-# WeddingWebsite
+# 💒 Wedding Website & RSVP Platform
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.0.
+A modern, responsive wedding platform built with **Angular** and **TypeScript**. Designed to manage event details, guest RSVP confirmations, interactive location maps, and a live countdown timer to the big day.
 
-## Development server
+---
 
-To start a local development server, run:
+### 🚀 Tech Stack & Features
 
-```bash
+**Core Technologies**
+
+- **Framework:** Angular (v17+)
+- **Language:** TypeScript
+- **Styling:** CSS3 / Modern Layouts
+- **Routing:** Angular Router (SPA)
+
+**Key Features**
+
+- ⏳ **Live Countdown Timer:** Real-time countdown to the wedding ceremony.
+- 💌 **RSVP Management:** Interactive form for guest attendance confirmation.
+- 📍 **Venue & Location Details:** Information and directions for guests.
+- 📱 **Mobile-First & Responsive:** Fully optimized for mobile browsers and tablets.
+
+---
+
+### 🛠️ Local Development Setup
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/danielapsantos/wedding-website.git](https://github.com/danielapsantos/wedding-website.git)
+   ```
+
+Navigate to the project directory:
+
+Bash
+cd wedding-website
+Install dependencies:
+
+Bash
+npm install
+Start the Angular development server:
+
+Bash
 ng serve
-```
+Open in browser:
+Navigate to http://localhost:4200/.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+👩‍💻 Author
+Developed with ❤️ by Daniela Pinheiro
 
-## Code scaffolding
+LinkedIn: linkedin.com/in/daniela-pinheiro-3a978897
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+GitHub: @danielapsantos
